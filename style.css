@@ -7,7 +7,12 @@ h1 {
   text-shadow: 2px 2px 0px white, 4px 4px 0px #888;
   font-size: 72px;
   text-align: center;
+}
 
+h2 {
+  font-family: 'Suez One', serif;
+  font-size: 40px
+  text-aligh: center;
 }
 
 header {
@@ -21,6 +26,7 @@ header {
 section {
   text-align: center;
   font-family: 'Sriracha', cursive;
+  font-size: 24px;
 }
 
 footer {
