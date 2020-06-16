@@ -1,5 +1,8 @@
+/* Nina's Style Sheet */
+
 body {
-  background-color: #fede18;
+  /* background-color: #fede18; */
+  background-image: url(Images/gold-background.jpg);
 }
 
 h1 {
@@ -21,6 +24,8 @@ header {
   font-family: 'Sriracha', cursive;
   border: 5px ridge grey;
   background-color: lightgrey;
+  /* background-image: url(Images/gold-flakes.jpg); */
+  margin: 20px;
 }
 
 section {
@@ -29,7 +34,37 @@ section {
   font-size: 24px;
 }
 
+.caption {
+  tex-align: center;
+  font-size: 15px;
+}
+
+.shadow {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.margin {
+  margin: 25px;
+}
+
+.button {
+  background-color: gold;
+  border: 5px ridge grey;
+  color: white;
+  padding: 0px 15px;
+  text-align: center;
+  text-shadow: 1px 1px 0 black
+}
+
+.textbox {
+  background-color: palegoldenrod;
+  margin: 0 35px;
+}
+
 footer {
   text-align: center;
-  color: grey;
+  color: black;
+  font-weight: bold;
 }
