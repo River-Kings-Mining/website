@@ -21,11 +21,11 @@ h2 {
 
 header {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   font-family: 'Sriracha', cursive;
   border: 5px ridge grey;
   background-color: lightgrey;
-  background-image: url(Images/gold-flakes.jpg);
+  background-image: url(Images/gold-flakes1.jpg);
   margin: 20px;
   color:blue;
   text-shadow: 2px 2px 0px white, 4px 4px 0px #888;
@@ -34,7 +34,7 @@ header {
 section {
   text-align: center;
   font-family: 'Sriracha', cursive;
-  font-size: 24px;
+  font-size: 25px;
 }
 
 .caption {
@@ -44,8 +44,8 @@ section {
 
 .shadow {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .margin {
@@ -53,21 +53,47 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .button {
-  background-color: gold;
+  /* background-color: gold;
   border: 5px ridge grey;
   color: white;
   padding: 0px 15px;
   text-align: center;
-  text-shadow: 1px 1px 0 black
-}
-
-.textbox {
-  background-color: palegoldenrod;
-  margin: 0 35px;
-}
-
-footer {
+  text-shadow: 1px 1px 0 black */
+  padding: 15px 25px;
+  font-size: 24px;
   text-align: center;
-  color: black;
-  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: gold;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 5px;
+}
+
+  .button:hover {
+    background-color: blue;
+}
+
+  .button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+
+  .textbox {
+    background-color: palegoldenrod;
+    margin: 25px 35px;
+}
+
+  .container {
+    margin: 0 auto;
+  }
+
+  footer {
+    text-align: center;
+    color: black;
+    font-weight: bold;
 }
