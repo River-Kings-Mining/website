@@ -8,8 +8,9 @@ body {
 h1 {
   font-family: 'Piedra', cursive;
   text-shadow: 2px 2px 0px white, 4px 4px 0px #888;
-  font-size: 72px;
+  font-size: 85px;
   text-align: center;
+  color: blue;
 }
 
 h2 {
@@ -24,8 +25,10 @@ header {
   font-family: 'Sriracha', cursive;
   border: 5px ridge grey;
   background-color: lightgrey;
-  /* background-image: url(Images/gold-flakes.jpg); */
+  background-image: url(Images/gold-flakes.jpg);
   margin: 20px;
+  color:blue;
+  text-shadow: 2px 2px 0px white, 4px 4px 0px #888;
 }
 
 section {
