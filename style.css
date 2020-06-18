@@ -69,44 +69,43 @@ section {
   margin: 5px;
 }
 
-  .button:hover {
-    background-color: blue;
+.button:hover {
+  background-color: blue;
 }
 
-  .button:active {
+.button:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 
 }
 
-  .textbox {
-    background-color: palegoldenrod;
-    margin: 25px 35px;
+.textbox {
+  background-color: palegoldenrod;
+  margin: 25px 35px;
 }
 
-  .container {
-    margin: 0 auto;
-  }
+.container {
+  margin: 0 auto;
+}
 
 /* Google Maps */
-  .mapouter {
-    margin: 0 auto;
-    position:relative;
-    text-align:left;
-    height:500px;
-    width:600px;
-  }
-    .gmap_canvas {
-      overflow:hidden;
-      background:none
-      !important;
-      height:500px;
-      width:600px;
-    }
+.mapouter {
+  margin: 0 auto;
+  position:relative;
+  text-align:left;
+  height:500px;
+  width:600px;
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:600px;
+}
 
-  footer {
-    text-align: center;
-    color: black;
-    font-weight: bold;
+footer {
+  text-align: center;
+  color: black;
+  font-weight: bold;
 }
