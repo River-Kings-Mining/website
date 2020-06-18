@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  font-family: 'Piedra', cursive;
+  font-family: 'Monofett', cursive;
   text-shadow: 2px 2px 0px white, 4px 4px 0px #888;
   font-size: 85px;
   text-align: center;
@@ -22,7 +22,7 @@ h2 {
 header {
   text-align: center;
   font-size: 40px;
-  font-family: 'Sriracha', cursive;
+  font-family: 'Monofett', cursive;
   border: 5px ridge grey;
   background-color: lightgrey;
   background-image: url(Images/gold-flakes1.jpg);
