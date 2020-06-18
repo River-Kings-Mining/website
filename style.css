@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  font-family: 'Monofett', cursive;
+  font-family: 'Monofett', arial;
   text-shadow: 2px 2px 0px white, 4px 4px 0px #888;
   font-size: 85px;
   text-align: center;
@@ -22,7 +22,7 @@ h2 {
 header {
   text-align: center;
   font-size: 40px;
-  font-family: 'Monofett', cursive;
+  font-family: 'Monofett', arial;
   border: 5px ridge grey;
   background-color: lightgrey;
   background-image: url(Images/gold-flakes1.jpg);
@@ -33,7 +33,7 @@ header {
 
 section {
   text-align: center;
-  font-family: 'Sriracha', cursive;
+  font-family: 'Sriracha', arial;
   font-size: 25px;
 }
 
@@ -56,6 +56,7 @@ section {
 .button {
   padding: 15px 25px;
   font-size: 24px;
+  font-family: arial;
   text-align: center;
   text-shadow: 0px 0px 2px white;
   text-decoration: none;
