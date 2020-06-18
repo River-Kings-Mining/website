@@ -53,12 +53,6 @@ section {
 }
 
 .button {
-  /* background-color: gold;
-  border: 5px ridge grey;
-  color: white;
-  padding: 0px 15px;
-  text-align: center;
-  text-shadow: 1px 1px 0 black */
   padding: 15px 25px;
   font-size: 24px;
   text-align: center;
@@ -93,6 +87,7 @@ section {
     margin: 0 auto;
   }
 
+/* Google Maps */
   .mapouter{position:relative;text-align:left;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}
 
 
