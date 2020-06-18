@@ -16,7 +16,7 @@ h1 {
 h2 {
   font-family: 'Suez One', serif;
   font-size: 40px
-  text-aligh: center;
+  text-align: center;
 }
 
 header {
@@ -87,6 +87,10 @@ section {
 
 .container {
   margin: 0 auto;
+}
+
+.address {
+  lineheight:5px;
 }
 
 /* Google Maps */
